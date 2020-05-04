@@ -35,9 +35,9 @@ Use the following installation steps:
 
 2. Open **Anaconda Prompt (Anaconda3)**  and run below commands
 
-    2.a Change the directory to extracted folder using **cd** command.
+        2.a Change the directory to extracted folder using **cd** command.
     
-    2.b Type below command to open  **Jupyter Notebook**
+        2.b Type below command to open  **Jupyter Notebook**
     `jupyter notebook`
 
 ![Jupyter](https://lh3.googleusercontent.com/IkC8V-ypEir1Qulf9BUPb1wIxlBN7t-M4a8wQXe5d9ly0gz_JhgSH86j9-O2gK5XE_dKiXkCqV5HjqJhTKl4Cz8rrLOWinywCFPFNgurRa_r9JQ9sxEbqfd2oGn6dlb4K9u_CcZE5W-7TjT77kmrQZPrrYnIaDS6k1a_10XGYpZc6rEIvzHcThWaTcg7QxoUegEjgquTniwR_1nSEQZBY8OD6ZsOOMo7wqW8qsoJUnjBKsze6qmuAvQQ3Ru83eCUDQ8fGoQYJ4lEG8nAJq0UVThMfg3EOtoBSNGKZR-6ehASdEq7PuECm0cp6UxTUMy4ywLToGd9_2sOsPTCGy-Fb3T35boNrN_BZcUSQC6rUPn_C1JlHi_euKRttxi2W-1EnqXiGIWmJ_TISqPKsZ9hos-5bv51Lo2sMP3KOTUq5Cor0iDbSEGEYsnI2X11mL8Sq_K74bGxKxynTjNMJrsfmvN2jFvdCGspKTLFm5HzMRIvvJFWx21t_j6usHD02hEbEMzLsWvnzajAoCEj8iQmlkDhDUD41TaSOuHGY90eKauHj5u65azcC-Syn1yqgMe94199pnsXMSFbxz0Fkr4X7TZ-v4DWlQsrfcBi3BzKlyXGmPlzwkR7S9MtGtKaxhd7j8TCkdxSFVBu3tQ8WEuV8xWAd8rkL_hW8hF_Dv27N985rj1F7GLM8qFoy9ii=w978-h159-no)
@@ -67,7 +67,9 @@ Cell 3: Function to extract valid table from Docx file and append it to new Work
 
 Cell 4: Create new Workbook by calling previously defined functions.
 **Note:** Before executing this cell, update the value for below mentioned variables (input_html_dir, input_docx_dir) to set input HTML & Docx file directory respectively.
+
    `input_html_dir = 'Accelerated Third-Party Returns.html'`
+   
    `input_docx_dir = 'Accelerated Third-Party Returns.docx'`
 
 ![Main](https://lh3.googleusercontent.com/p7zydqdKRarpx0qjNOsqjOCb7zsphL8YloyQYShhUuxmoG2jTYjFU13FC9T61NWHd8EEu4whAB7GUz9Z4ljF8a-EHJa1BotV-jsKkJL7blBVSPZ6midD9q6XvLzo3iIrNYfmrzoV2NeIeowTgfPD-CnD0h4J2DlCMab1c7Q2GMq-k86Iqsgnd7VEExi3fWnNEwZV1AqVDiI5PnsD73vrRG1zY41Fa6RPYuvWz9MneNnZ6igcaJ9HqyE5Pz6iGWDp4Q1Kq_vr5bWtb9YQI-5-_JCxkcvLnEwRtgwY7tSGrQn0Dl59dxqTHqy2jHiO8DqxoQwl3CvkxCj9ZeCWvcBzh1Lw0g7sk6H9H0WqzDnXm6aI7Yo7duVRNZcLKrf61EGnBHB4pfOmFh60ItOe57XSQzDs6uWUMHaQZyz-meHrJuoB8r95UuCjcuoQCgsaMAN8wsDuIuLKcjUaMcradMhGfxK7rQQ-BMYJgNcDbYmMfQW3jW70gNCv09F-fY-4kQwK6VxeNcLyDR4zJXqtPAPv-BAGBI3s7lqy6QnpJvpg8jxgQl53g2kOBiCaIl6yguUkPsBcQJWBKF1EJ921epVwpm6fhyDg4NY5e8Ms40iuIlKDtcoSsTIgiSNS-GCjbQWMyLgtge7xJgmDxVRJ6-ilZumCwgwoCYly4kNPh-qLpAdoVb46JNgkM8oKrmLf=w1141-h475-no)
