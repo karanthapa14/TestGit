@@ -35,10 +35,11 @@ Use the following installation steps:
 
 2. Open **Anaconda Prompt (Anaconda3)**  and run below commands
 
-        2.a Change the directory to extracted folder using **cd** command.
+      2.a Change the directory to extracted folder using **cd** command.
     
-        2.b Type below command to open  **Jupyter Notebook**
-    `jupyter notebook`
+      2.b Type below command to open  **Jupyter Notebook**
+      
+          `jupyter notebook`
 
 ![Jupyter](https://lh3.googleusercontent.com/IkC8V-ypEir1Qulf9BUPb1wIxlBN7t-M4a8wQXe5d9ly0gz_JhgSH86j9-O2gK5XE_dKiXkCqV5HjqJhTKl4Cz8rrLOWinywCFPFNgurRa_r9JQ9sxEbqfd2oGn6dlb4K9u_CcZE5W-7TjT77kmrQZPrrYnIaDS6k1a_10XGYpZc6rEIvzHcThWaTcg7QxoUegEjgquTniwR_1nSEQZBY8OD6ZsOOMo7wqW8qsoJUnjBKsze6qmuAvQQ3Ru83eCUDQ8fGoQYJ4lEG8nAJq0UVThMfg3EOtoBSNGKZR-6ehASdEq7PuECm0cp6UxTUMy4ywLToGd9_2sOsPTCGy-Fb3T35boNrN_BZcUSQC6rUPn_C1JlHi_euKRttxi2W-1EnqXiGIWmJ_TISqPKsZ9hos-5bv51Lo2sMP3KOTUq5Cor0iDbSEGEYsnI2X11mL8Sq_K74bGxKxynTjNMJrsfmvN2jFvdCGspKTLFm5HzMRIvvJFWx21t_j6usHD02hEbEMzLsWvnzajAoCEj8iQmlkDhDUD41TaSOuHGY90eKauHj5u65azcC-Syn1yqgMe94199pnsXMSFbxz0Fkr4X7TZ-v4DWlQsrfcBi3BzKlyXGmPlzwkR7S9MtGtKaxhd7j8TCkdxSFVBu3tQ8WEuV8xWAd8rkL_hW8hF_Dv27N985rj1F7GLM8qFoy9ii=w978-h159-no)
 
@@ -66,6 +67,7 @@ Cell 3: Function to extract valid table from Docx file and append it to new Work
 ![Extract tables & create new sheet](https://lh3.googleusercontent.com/W_4IJSyCCR4S0PUvWZPklJmLnoePWn-GYKp4f1xsyNVNUJDzXcjbFLnqJNUFEgd1uP0FlJRuuDLgEzCH3OPEiMYUtcEh7KN-O57ZwJIgB0ojkG2NtLOj39ETZeBuMgAQfiEco1KL8NaW-W4zwpAkvOUbLYQo7lwTtQpnhsXoscj0uMdliMc1Rp1mOBi84G4ypla5YrNbUD6z3d7yhi2eDjAyd9PqEojHl-wYIeacu3zSj3E_zSc1f0yAk8ZPTAajw0u8Lhbd7jJhYKyhWE1HY-gyyQMXoxr29D-FB1gyqXNYqlKEAMsvHhyFSa2Vzofi8lJIzzAC6sxhawSnrExddPRoCHk95qkjs9sHY7H7mjOYsiQJF5zy5gWjTZ5gdIeK7l3rX3FC8c97cAAKfbpAXqLRx4NVqx5kAcleklxEtCgVdKWOuNTajnsXVbJQ_2CUtoUJdNQxcWffRWYiE_NGpELQNFVy5_zY5ZFt2kEU5PDwv1IA8WY95_bjKzWRFW4qoCQBtutWo8btEBAdMTp7noyL8MfbU1AL6SD2Voz_YsA-1q8xHTKtgj-P_5bU7q1Sr8Yd8cZGlYxdUeChfCyTTqEaGAVYFWVLFX2krO60_n568spfDQSe7DVvLlVKtEYd_3CJhQa-cZHEzHpfSiko0ihexEQIerYiNWTDGZNkVK6REoqsA3xVKDWIMeHA=w1011-h444-no)
 
 Cell 4: Create new Workbook by calling previously defined functions.
+
 **Note:** Before executing this cell, update the value for below mentioned variables (input_html_dir, input_docx_dir) to set input HTML & Docx file directory respectively.
 
    `input_html_dir = 'Accelerated Third-Party Returns.html'`
